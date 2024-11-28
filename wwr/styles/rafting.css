@@ -1,0 +1,104 @@
+/* Define CSS variables for the color scheme */
+:root {
+    --primary-color: #505033;
+    --secondary-color: #264969;
+    --accent1-color: #CFCFB4;
+    --accent2-color: #B4CDE4;
+  }
+  
+  /* General Reset */
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Style for headings and paragraphs */
+  h1, h2 {
+    font-family: 'Georgia', serif;
+    color: var(--primary-color);
+  }
+  
+  p {
+    color: var(--secondary-color);
+    font-size: 1rem;
+  }
+  
+  /* Style for the container width */
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Remove underline from social media links */
+  footer nav a img {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Hero Section Styling */
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent1-color);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  /* Article inside the hero section */
+  .hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    width: 40%;
+    color: var(--primary-color);
+  }
+  
+  .hero article img {
+    float: right;
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Style for Adventure Section Images */
+  section img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+  }
+  
+  /* Footer Navigation */
+  footer nav a img {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--accent2-color);
+  }
+  
+  footer nav a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
