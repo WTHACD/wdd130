@@ -110,14 +110,14 @@
   .nav {
     display: flex; 
     justify-content: flex-end; 
-    gap: 5px; 
+    gap: 2px; 
   }
   
   /* Links styling */
   .nav a {
     text-decoration: none; 
     color: #333; 
-    padding: 10px 20px; 
+    padding: 10px 60px; 
     background-color: #ddd; 
     border: 1px solid #ccc; 
     border-radius: 5px; 
