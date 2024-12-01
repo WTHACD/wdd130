@@ -11,6 +11,7 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    max-width: none;  
   } 
   /* Style for headings and paragraphs */
   h1, h2 {
@@ -66,7 +67,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     padding: 15px;
     border-radius: 8px;
-    width: 40%;
+    width:     40%;
     color: var(--primary-color);
   }
   
@@ -101,7 +102,7 @@
   
   /* Logo styling */
   .logo {
-    max-height: 110px 0px; 
+    max-height: 100%; 
     margin-left: 115px; 
   }
   
@@ -173,7 +174,7 @@
     grid-template-columns: repeat(5, 1fr); 
     gap: 15px; 
     justify-items: center; 
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
   
@@ -185,9 +186,10 @@
   }
   
   .adventures img {
-    width: 200%; 
+    width: 100%; 
     height: auto; 
-    max-width: 220px; 
+    max-width: 200px;
+    box-sizing: border-box; 
   }
   
   .adventures figcaption {
